@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Attendance System</title>
+</head>
+<body>
+    <div class="container">
+        <div class="title-bar">
+            <h2>Attendance System</h2>
+        </div>
+        <label for="name">Name:</label>
+        <input type="text" id="name">
+        <label for="rollNo">Roll No:</label>
+        <input type="text" id="rollNo">
+        <div class="button-container">
+            <button onclick="present()">Present</button>
+            <button onclick="absent()">Absent</button>
+        </div>
+        <div class="table-title">
+            <h3>Attendance Record</h3>
+        </div>
+        <table id="attendanceTable">
+            <tr>
+                <th>Name</th>
+                <th>Roll No</th>
+                <th>Date</th>
+                <th>Time</th>
+                <th>Status</th>
+            </tr>
+        </table>
+    </div>
+  <div class="footer">
+    Made by Aditya Kirsali
+  </div>
+    <script src="script.js"></script>
+</body>
+</html>
